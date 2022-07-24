@@ -36,18 +36,24 @@ local Tycoon = win:NewTab({
 })
 
 Tycoon:Label({
-    Title = "Egg Packing Tycoon LABELLLLLLLLLLLLLLLLLLLLLLLLL"
+    Title = "------------------------------ Egg Packing Tycoon ------------------------------"
 })
 
 Tycoon:Button({
     Title = "Egg Packing Tycoon",
     Callback = function()
-        if _G.KeyInput == _G.Key then
             eggPacking()
         end
-end
 })
-
+Tycoon:Label({
+    Title = "------------------------------ GumBall Factory Tycoon ------------------------------"
+})
+Tycoon:Button({
+    Title = "GumBall Factory Tycoon",
+    Callback = function()
+            loadstring(game:HttpGet(('https://raw.githubusercontent.com/YourMomClapped/GumBall../main/.lua'),true))()
+        end
+})
 
 
 --[[
@@ -120,3 +126,16 @@ function MoveToEggs()
 end
 MoveToEggs()
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
