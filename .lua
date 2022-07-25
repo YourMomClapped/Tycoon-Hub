@@ -120,6 +120,22 @@ Tycoon:Button({
     end
 })
 
+Tycoon:Label({
+    Title = "------------------------------ Guillotine Tycoon ------------------------------"
+})
+Tycoon:Button({
+    Title = "Guillotine Tycoon",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/GuillotineTycoon.lua"))()
+    end
+})
+
+
+
+
+
+
+
 
 
 
@@ -179,7 +195,14 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-    
+function Bck()
+OrionLib:MakeNotification({
+	Name = "Annon Hub",
+	Content = "Teleporting back to Annon Hub.",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+end
     
     
     
