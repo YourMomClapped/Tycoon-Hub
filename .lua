@@ -109,6 +109,30 @@ Tycoon:Button({
         end
 })
 
+Tycoon:Button({
+    Title = "GumBall Factory Tycoon Gui",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Amphvptere/Novice/main/GumballFT", true))()
+        end
+})
+Tycoon:DropDown({
+    Text = "GumBall Faction Gui's Features",
+    PlaceHolder = 'Featrues.',
+    Options = {'[+] Auto Load Gum', '[+] Auto Factory Door', '[+] Auto Complete Obbies', '[+] Auto Collect Tree Gumball', '[+] Remote interface interaction', '[+] Ascansion function', '[+] Faster snowballing', '[+] More!'},
+    Callback = function(args)
+        print(args)
+    end
+})
+-- Auto Load Gum
+-- Auto Factory Door
+-- Auto Complete Obbies
+-- Auto Collect Tree Gumballs
+-- Remote interface interaction
+-- Ascension functions
+-- Faster snowballing
+-- More!
+
+
 ----------------------------- Actor Tycoon -----------------------------
 Tycoon:Label({
     Title = "------------------------------ Actor Tycoon ------------------------------"
@@ -131,6 +155,7 @@ Tycoon:Button({
 })
 
 
+-------------------------- 
 
 
 
@@ -239,7 +264,7 @@ function Bck()
 OrionLib:MakeNotification({
 	Name = "Annon Hub",
 	Content = "Teleporting back to Annon Hub.",
-	Image = "rbxassetid://4483345998",
+	Image = "rbxassetid://3944691867",
 	Time = 5
 })
 end
