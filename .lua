@@ -39,7 +39,9 @@ local win = windows:Create({
 ╚═╝░░░░░░╚═════╝░╚═╝░░╚══╝░╚════╝░░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝╚═════╝░]]
 
 
-
+function waitt()
+    wait(.09)
+end
 
 
 -------------------------------- Actor tycoon get all gamepasses --------------------------------
@@ -84,10 +86,12 @@ end
 ░░░██║░░░░░░██║░░░╚█████╔╝╚█████╔╝╚█████╔╝██║░╚███║  ██████╔╝╚█████╔╝██║░░██║██║██║░░░░░░░░██║░░░██████╔╝
 ░░░╚═╝░░░░░░╚═╝░░░░╚════╝░░╚════╝░░╚════╝░╚═╝░░╚══╝  ╚═════╝░░╚════╝░╚═╝░░╚═╝╚═╝╚═╝░░░░░░░░╚═╝░░░╚═════╝░]]
 
+waitt()
 ---------------------------- Tycoon Scripts ----------------------------
 local Tycoon = win:NewTab({
     Title = "Tycoon scripts"
 })
+
 
 Tycoon:Label({
     Title = "------------------------------ Egg Packing Tycoon ------------------------------"
@@ -99,15 +103,18 @@ Tycoon:Button({
             eggPacking()
         end
 })
+
 Tycoon:Label({
     Title = "------------------------------ GumBall Factory Tycoon ------------------------------"
 })
+
 Tycoon:Button({
     Title = "GumBall Factory Tycoon",
     Callback = function()
             loadstring(game:HttpGet(('https://raw.githubusercontent.com/YourMomClapped/GumBall../main/.lua'),true))()
         end
 })
+
 
 Tycoon:Button({
     Title = "GumBall Factory Tycoon Gui",
@@ -172,6 +179,7 @@ Tycoon:Button({
 ░░░██║░░░░░░██║░░░╚█████╔╝╚█████╔╝╚█████╔╝██║░╚███║  ██║░░██║╚██████╔╝██████╦╝██████╔╝
 ░░░╚═╝░░░░░░╚═╝░░░░╚════╝░░╚════╝░░╚════╝░╚═╝░░╚══╝  ╚═╝░░╚═╝░╚═════╝░╚═════╝░╚═════╝░]]
 
+waitt()
 ---------------------------- Tycoon Hubs ----------------------------
 local TycoonHubs = win:NewTab({
     Title = "Tycoon Hubs"
@@ -187,6 +195,7 @@ local TycoonHubs = win:NewTab({
 ╚██████╔╝╚█████╔╝  ██████╦╝██║░░██║╚█████╔╝██║░╚██╗
 ░╚═════╝░░╚════╝░  ╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝]]
 
+waitt()
 local Back = win:NewTab({
     Title = "Go back -->"
 })
