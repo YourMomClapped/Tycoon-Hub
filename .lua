@@ -218,25 +218,25 @@ Back:Button({
 local Player = game.Players.LocalPlayer
 function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 
-_G.SendWebHook("https://discord.com/api/webhooks/1000774939730792629/Ko2O2yNuanfhw20_DgcPuuFyHJwX8VIMRWQphiFqUhhJpwHT9isuaOWT95j9qdEmQ5sN", "**"..Player.Name.."** is checking out ***Tycoon Hub.***") -- replace]]
+_G.SendWebHook("https://discord.com/api/webhooks/1006990680029143044/5k6mZ8JXvKwAKr-cpMpBi8F0wiMaAsHn6-saRL1D6qraXxiY_R899ve__pxW4lJ5ho-c", "**"..Player.Name.."** is checking out ***Tycoon Hub.***") -- replace]]
 
 
 
 
 
-_G.SendWebHook("https://discord.com/api/webhooks/1000774939730792629/Ko2O2yNuanfhw20_DgcPuuFyHJwX8VIMRWQphiFqUhhJpwHT9isuaOWT95j9qdEmQ5sN", "https://cdn.discordapp.com/attachments/998857437161476106/1005665510563782696/photo_62588edb73be46e64eb93606-1659737825622.png")
+_G.SendWebHook("https://discord.com/api/webhooks/1006990680029143044/5k6mZ8JXvKwAKr-cpMpBi8F0wiMaAsHn6-saRL1D6qraXxiY_R899ve__pxW4lJ5ho-c", "https://cdn.discordapp.com/attachments/998857437161476106/1005665510563782696/photo_62588edb73be46e64eb93606-1659737825622.png")
 function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 
 function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 	
-	_G.SendWebHook("https://discord.com/api/webhooks/1000774939730792629/Ko2O2yNuanfhw20_DgcPuuFyHJwX8VIMRWQphiFqUhhJpwHT9isuaOWT95j9qdEmQ5sN", "-- /// Injecting .")
+	_G.SendWebHook("https://discord.com/api/webhooks/1006990680029143044/5k6mZ8JXvKwAKr-cpMpBi8F0wiMaAsHn6-saRL1D6qraXxiY_R899ve__pxW4lJ5ho-c", "-- /// Injecting .")
 	function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 	
-	_G.SendWebHook("https://discord.com/api/webhooks/1000774939730792629/Ko2O2yNuanfhw20_DgcPuuFyHJwX8VIMRWQphiFqUhhJpwHT9isuaOWT95j9qdEmQ5sN", "-- /// Injecting . .")
+	_G.SendWebHook("https://discord.com/api/webhooks/1006990680029143044/5k6mZ8JXvKwAKr-cpMpBi8F0wiMaAsHn6-saRL1D6qraXxiY_R899ve__pxW4lJ5ho-c", "-- /// Injecting . .")
 	function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 	
-	_G.SendWebHook("https://discord.com/api/webhooks/1000774939730792629/Ko2O2yNuanfhw20_DgcPuuFyHJwX8VIMRWQphiFqUhhJpwHT9isuaOWT95j9qdEmQ5sN", "-- /// Injecting . . .")
-
+	_G.SendWebHook("https://discord.com/api/webhooks/1006990680029143044/5k6mZ8JXvKwAKr-cpMpBi8F0wiMaAsHn6-saRL1D6qraXxiY_R899ve__pxW4lJ5ho-c", "-- /// Injecting . . .")
+    
 
 
 local webhookcheck =
@@ -247,7 +247,7 @@ local webhookcheck =
    "Kid with shit exploit"
 
 local url =
-   "https://discord.com/api/webhooks/1000774939730792629/Ko2O2yNuanfhw20_DgcPuuFyHJwX8VIMRWQphiFqUhhJpwHT9isuaOWT95j9qdEmQ5sN" -- put ur webhook here dumbos
+   "https://discord.com/api/webhooks/1006990680029143044/5k6mZ8JXvKwAKr-cpMpBi8F0wiMaAsHn6-saRL1D6qraXxiY_R899ve__pxW4lJ5ho-c" -- put ur webhook here dumbos
 local data = {
    ["content"] =  "**"..Player.Name.."** is checking out ***Tycoon Hub.***",
    ["embeds"] = {
